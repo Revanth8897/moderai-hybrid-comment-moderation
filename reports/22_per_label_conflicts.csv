@@ -1,0 +1,8 @@
+label,duplicated_texts,score_conflict_texts,binary_conflict_texts
+toxicity,5982,1666,222
+severe_toxicity,5982,481,0
+obscene,5982,624,10
+threat,5982,449,15
+insult,5982,1354,163
+identity_attack,5982,651,36
+sexual_explicit,5982,292,3

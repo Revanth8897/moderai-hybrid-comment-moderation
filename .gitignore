@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyd
+.Python
+.pytest_cache/
+.mypy_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Databases and logs
+*.db
+*.sqlite
+*.sqlite3
+*.log
+
+# Datasets and generated models
+datasets/
+*.pkl
+*.joblib
+*.model
+
+# Frontend
+node_modules/
+dist/
+build/
+coverage/
+
+# IDE and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

@@ -1,0 +1,4 @@
+split,total_rows,unique_comments,internal_duplicate_rows,empty_rows,overlap_with_train,overlap_with_validation,overlap_with_test
+train,1787805,1778057,9748,0,0,0,0
+validation,96805,96805,0,0,1281,0,0
+test,96803,96803,0,0,1333,664,0

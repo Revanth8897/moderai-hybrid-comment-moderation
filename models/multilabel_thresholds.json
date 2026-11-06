@@ -1,0 +1,56 @@
+{
+    "toxicity": {
+        "threshold": 0.7623006963643008,
+        "target_precision": 0.7,
+        "minimum_predicted_positives": 30,
+        "validation_precision": 0.7000368731563422,
+        "validation_recall": 0.49770612137894876,
+        "predicted_positive_count": 5424,
+        "status": "selected"
+    },
+    "obscene": {
+        "threshold": 0.9413169843479391,
+        "target_precision": 0.7,
+        "minimum_predicted_positives": 30,
+        "validation_precision": 0.7,
+        "validation_recall": 0.2692307692307692,
+        "predicted_positive_count": 200,
+        "status": "selected"
+    },
+    "threat": {
+        "threshold": null,
+        "target_precision": 0.7,
+        "minimum_predicted_positives": 30,
+        "validation_precision": null,
+        "validation_recall": null,
+        "predicted_positive_count": null,
+        "status": "no_threshold_meets_requirements"
+    },
+    "insult": {
+        "threshold": 0.7603478650820913,
+        "target_precision": 0.7,
+        "minimum_predicted_positives": 30,
+        "validation_precision": 0.7000922083909635,
+        "validation_recall": 0.5296477153819323,
+        "predicted_positive_count": 4338,
+        "status": "selected"
+    },
+    "identity_attack": {
+        "threshold": null,
+        "target_precision": 0.7,
+        "minimum_predicted_positives": 30,
+        "validation_precision": null,
+        "validation_recall": null,
+        "predicted_positive_count": null,
+        "status": "no_threshold_meets_requirements"
+    },
+    "sexual_explicit": {
+        "threshold": null,
+        "target_precision": 0.7,
+        "minimum_predicted_positives": 30,
+        "validation_precision": null,
+        "validation_recall": null,
+        "predicted_positive_count": null,
+        "status": "no_threshold_meets_requirements"
+    }
+}

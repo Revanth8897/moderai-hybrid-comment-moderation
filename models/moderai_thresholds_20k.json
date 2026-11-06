@@ -1,0 +1,13 @@
+{
+    "target_precision": 0.7,
+    "minimum_predicted_positives": 10,
+    "selection_method": "highest_recall_meeting_precision_target",
+    "thresholds": {
+        "toxicity": 0.7653665832509605,
+        "obscene": null,
+        "threat": null,
+        "insult": 0.7052297630336358,
+        "identity_attack": null,
+        "sexual_explicit": null
+    }
+}

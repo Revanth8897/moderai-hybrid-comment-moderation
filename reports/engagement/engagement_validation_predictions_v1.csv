@@ -1,0 +1,60 @@
+comment_id,comment_text,actual_intent,predicted_intent,max_probability,probability_critical,probability_negative,probability_neutral,probability_positive,probability_question,is_unclear,correct_clear_prediction
+YT000007,"As the Chief law enforcement officer in the country Trump should be getting a response from Ukraine about Hunter and Joe Biden. Stop calling Joe Biden his political opponent, he will not be the nominee and was never a threat to Trump",CRITICAL,CRITICAL,0.28356192,0.28356192,0.2530219,0.15550956,0.15051404,0.15739259,False,True
+YT000018,Dyson is a hate monger. He profits from hate even though he is side show conman.,NEGATIVE,NEGATIVE,0.25367132,0.18483667,0.25367132,0.15265556,0.20506328,0.20377316,False,True
+YT000025,Since you seem to know it all how would you suggest he try and move forward with his family,QUESTION,QUESTION,0.23430741,0.22580895,0.17984667,0.16698517,0.19305182,0.23430741,False,True
+YT000026,go go go BBM❤️,POSITIVE,NEGATIVE,0.24580915,0.19010167,0.24580915,0.17729077,0.22255363,0.16424486,False,False
+YT000029,GORILLA VS CHIMPANZEE 😀😀😀,UNCLEAR,POSITIVE,0.23566376,0.18344833,0.21896775,0.18776335,0.23566376,0.17415689,True,False
+YT000047,"It's very telling when the FPS is double but the PCL is near the same. It means in real frames, they're NOT that far apart.",CRITICAL,CRITICAL,0.2726758,0.2726758,0.16724952,0.18452342,0.16762064,0.20793067,False,True
+YT000055,Real 😭🙏,POSITIVE,QUESTION,0.28720617,0.16097695,0.19248648,0.16479482,0.19453561,0.28720617,False,False
+YT000058,Yes o. I'm thrilled by this speech,POSITIVE,NEGATIVE,0.24541326,0.15660228,0.24541326,0.18889019,0.2055851,0.20350909,False,False
+YT000064,Fauci thinks he's a rock star! He likes being on TV. P&L. Dan..,NEGATIVE,NEGATIVE,0.26337948,0.16563685,0.26337948,0.17604856,0.19635053,0.1985845,False,True
+YT000072,I’m confused,QUESTION,POSITIVE,0.2141152,0.19526434,0.211471,0.18173094,0.2141152,0.19741848,False,False
+YT000074,Do symptoms include a erectile dysfunction,QUESTION,NEGATIVE,0.22662935,0.20985328,0.22662935,0.16562448,0.19169758,0.20619527,False,False
+YT000090,"I'm absolutely pro-life. You can do whatever you want to your own body, but a baby is not your body. Separate DNA code, separate body parts, etc. I read the book you recommended, 'The Unaborted Socrates'.  What an amazing book! Very mind-blowing at times. I'd recommend it to anyone who is not sure on the abortion issue or for those who think it's okay for certain circumstances to definitely read this book.",POSITIVE,QUESTION,0.23455426,0.22277907,0.18946052,0.13636424,0.21684197,0.23455426,False,False
+YT000092,Love is not looking into each other eyes but also looking the same direction,NEUTRAL,POSITIVE,0.24218191,0.21125957,0.18875922,0.18967967,0.24218191,0.16811965,False,False
+YT000094,"But I always imagine if your arms are too short for the parachute and your like
+“Gulp,we’ll be right back” then plummets to there death",NEUTRAL,POSITIVE,0.28205636,0.2644816,0.16518705,0.13846448,0.28205636,0.14981054,False,False
+YT000100,Thank God we don’t have to listen to his drivel anymore,NEGATIVE,POSITIVE,0.23257644,0.20094596,0.19167338,0.17925563,0.23257644,0.19554855,False,False
+YT000114,"No one talk about preventing the spread, some solutions to stop this. With high technology do nothing just talking and talking and showing the same to scare people and nothing else. You do the same nothing. I’m already sick of your nonsense talking . I think there is some reason your talk show is the same like others about- nothing",CRITICAL,CRITICAL,0.25805622,0.25805622,0.18281387,0.18150608,0.20133714,0.1762867,False,True
+YT000120,"If I braked like the engineer, I would already be lying in the puddle 😅",NEUTRAL,QUESTION,0.26028517,0.21634576,0.17555028,0.19581257,0.15200627,0.26028517,False,False
+YT000121,Respect for physics,POSITIVE,POSITIVE,0.26317662,0.19261299,0.20513172,0.1762354,0.26317662,0.1628433,False,True
+YT000127,I would like to thank you Shaun for the fact that you've updated the course on Udemy for the new version. I was going to pay the new course and I saw that you did that ! Thank you very much for your work !,POSITIVE,POSITIVE,0.3204193,0.18898305,0.14830051,0.16225281,0.3204193,0.18004435,False,True
+YT000130,Resign as Chairman of  Appropriations Committee dahil health concern but stays as a regular congressman… how ironic,CRITICAL,CRITICAL,0.25608927,0.25608927,0.18989682,0.17924696,0.19207855,0.18268839,False,True
+YT000141,"3:05:15 - to refresh the data output, click the execute script button (the 'play' button) to rerun the same query or press F5.",NEUTRAL,CRITICAL,0.2332395,0.2332395,0.17184687,0.22438343,0.1671608,0.20336944,False,False
+YT000143,"When I update npm (on a Mac, El Capitan) it says that it updated to 3.8.3, but when I run the 'npm -v' command I get 2.11.3 back. Any idea how to fix this?",QUESTION,QUESTION,0.288476,0.20577383,0.13480613,0.17686103,0.19408308,0.288476,False,True
+YT000147,That sounds nice.,POSITIVE,POSITIVE,0.23762192,0.20105286,0.20992821,0.17943802,0.23762192,0.17195904,False,True
+YT000158,"Thank u so much sir, apke baje se social media ka pura power samajh main aya hai. Digital marketing ko sir apne itna easy bana diya. Tnk u sir for adding value in our life. Wonderful course and totally 🆓, mind blowing.",POSITIVE,POSITIVE,0.26136163,0.19967423,0.16839442,0.1918792,0.26136163,0.17869055,False,True
+YT000169,Did he pardon Liz Cheney?,QUESTION,QUESTION,0.29158354,0.15334214,0.20080967,0.19040026,0.16386442,0.29158354,False,True
+YT000186,is it O(nsquare) solution since it will iterate array when checking (n-1) in numset?,QUESTION,QUESTION,0.24330123,0.19024505,0.20043384,0.17026319,0.19575672,0.24330123,False,True
+YT000188,"THIS WAS GREAT - THANK YOU  - if i have a tab within a sheet - and i want someone to help me with formulas etc, can i share just the one tab or am i sharing the whole sheet ? If im sharing the whole sheet - can i somehow convert the one tab into its own sheet - share that with someone to fix my formulas and then they send it back and i can then put the tab they worked on back to the
+ original spreadsheet ?",QUESTION,POSITIVE,0.26137522,0.20064844,0.14017259,0.16559036,0.26137522,0.2322134,False,False
+YT000206,"They should have laughed harder, yelled insults and hurled rotten stuff at the clown.",NEGATIVE,CRITICAL,0.31054822,0.31054822,0.16431531,0.185734,0.19113089,0.14827155,False,False
+YT000208,The voice 😭😭 😭,POSITIVE,POSITIVE,0.21204048,0.20212592,0.20110469,0.18483508,0.21204048,0.19989383,False,True
+YT000215,दीदी जोड़ी कोडिंग सीखना चाहती हो हो तो कॉलेज में पढ़ना लगते हैं,CRITICAL,POSITIVE,0.22501354,0.18612468,0.2221801,0.19023131,0.22501354,0.17645039,False,False
+YT000220,🙁🙁🙁😔😭😭🙏🏻,POSITIVE,POSITIVE,0.22501354,0.18612468,0.2221801,0.19023131,0.22501354,0.17645039,False,True
+YT000226,"""I think lying is bad""............... I cant . This is painful to watch",NEGATIVE,NEGATIVE,0.24307346,0.1891488,0.24307346,0.19065268,0.20222192,0.17490323,False,True
+YT000229,USA UK and NATO must provide air support  and  cause a Nuclear  War.,NEGATIVE,CRITICAL,0.2601136,0.2601136,0.20421404,0.15696858,0.22678947,0.1519143,False,False
+YT000233,"She is such a terrible politician, that she can't even make up a typical weasel political response. She just stays silent.",NEGATIVE,NEGATIVE,0.26529178,0.19325063,0.26529178,0.17256439,0.19083942,0.17805377,False,True
+YT000244,❤,POSITIVE,POSITIVE,0.22501354,0.18612468,0.2221801,0.19023131,0.22501354,0.17645039,False,True
+YT000247,this kid is gonna be a pro at gorilla tag once he gets an oculus,POSITIVE,NEGATIVE,0.21908739,0.21664019,0.21908739,0.1712914,0.20547545,0.18750553,False,False
+YT000255,Thompson Edward Hall Patricia Hall Helen,UNCLEAR,POSITIVE,0.22501354,0.18612468,0.2221801,0.19023131,0.22501354,0.17645039,True,False
+YT000268,@beardmeatsfood in a sitcom,NEUTRAL,NEUTRAL,0.29125383,0.19694081,0.14842235,0.29125383,0.13753685,0.2258462,False,True
+YT000310,"Great content I was stock on this, now se everything clear thanks to you brother god bless you",POSITIVE,POSITIVE,0.44333014,0.1225368,0.13449363,0.15772986,0.44333014,0.14190957,False,True
+YT000313,What a shame for the US,NEGATIVE,NEGATIVE,0.22793421,0.18307316,0.22793421,0.19351201,0.18186061,0.21362,False,True
+YT000317,He's not a clear right winger. Bad reporting Kyle!!,CRITICAL,NEGATIVE,0.23377666,0.19510779,0.23377666,0.14908697,0.22616772,0.19586086,False,False
+YT000319,Just that little information  of  the difference between flexbox and grid layouts gave me clarity. Great teacher you are. Thanks,POSITIVE,POSITIVE,0.32452977,0.2091275,0.13164854,0.13015617,0.32452977,0.20453806,False,True
+YT000322,Oprah has subsidized this crime with her support of leftists.,NEGATIVE,NEGATIVE,0.25164348,0.22091746,0.25164348,0.1715124,0.17701961,0.17890704,False,True
+YT000331,It is a Great day for America. God Bless America.,POSITIVE,POSITIVE,0.35672957,0.1579306,0.17296518,0.16514125,0.35672957,0.14723335,False,True
+YT000343,Anyone else would have already been charged and jailed for asking that.,CRITICAL,QUESTION,0.23057449,0.22944587,0.17864978,0.17102344,0.19030638,0.23057449,False,False
+YT000346,wow! thank you for your hard work Mosh,POSITIVE,POSITIVE,0.4399306,0.15284067,0.15146717,0.13054809,0.4399306,0.12521346,False,True
+YT000349,"I know it's a bit late and has nothing to do with this video, but you were featured in the Mega Structures channel's Construction of the World's Longest Underwater Road and Rail Tunnel Begins at the 0.28 minute mark.",NEUTRAL,CRITICAL,0.22264424,0.22264424,0.15873776,0.21077842,0.19706987,0.21076973,False,False
+YT000355,So cute 😢😢😢😢❤❤❤❤❤❤,POSITIVE,POSITIVE,0.21710438,0.17867339,0.2147879,0.21026142,0.21710438,0.17917295,False,True
+YT000360,so much plastic thats ending in the ocean😐,CRITICAL,NEUTRAL,0.31236732,0.1722164,0.1534195,0.31236732,0.15551212,0.20648465,False,False
+YT000361,Eating at McDonald's is bad for you.,NEGATIVE,POSITIVE,0.2826206,0.20460634,0.19496211,0.1690057,0.2826206,0.1488052,False,False
+YT000363,the dog keeps on barking while the caravan keeps on moving,NEUTRAL,NEUTRAL,0.21731654,0.18253545,0.2005045,0.21731654,0.1939671,0.20567633,False,True
+YT000368,I think its insane that people ruined his life over an empty wheelchair,NEGATIVE,CRITICAL,0.26527596,0.26527596,0.19660139,0.15461597,0.1976359,0.18587078,False,False
+YT000370,"This will turn into Hillsborough all over again, except its many towns and cities and the world is watching - and Stirring!",CRITICAL,POSITIVE,0.26339975,0.18509047,0.22417964,0.14401165,0.26339975,0.18331844,False,False
+YT000375,nearly injured my now 8 year old cousin for having the volume up too loud on a nursery rhyme.,NEGATIVE,NEUTRAL,0.23549746,0.18820606,0.17992537,0.23549746,0.22392273,0.1724484,False,False
+YT000377,Insurance companies are thieves. Hospitals are closing right and left because insurance doesn't pay and patients can't pay.,CRITICAL,CRITICAL,0.29503125,0.29503125,0.1463476,0.14475012,0.257029,0.15684207,False,True
+YT000385,Impressive and helpful tutorial. Thanks for this amazing teaching.,POSITIVE,POSITIVE,0.35196567,0.1703374,0.16021709,0.16433887,0.35196567,0.15314095,False,True
+YT000393,oo halat na pinagiitirisan. yung  nag. uuna ng 10 libo ayaw tanggapin  kasi may may intires,UNCLEAR,CRITICAL,0.26459846,0.26459846,0.20015478,0.18906508,0.19181494,0.15436673,True,False

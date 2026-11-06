@@ -1,0 +1,7 @@
+label,threshold,precision,recall,predicted_positives,status
+toxicity,0.7623006963643008,0.7000368731563422,0.49770612137894876,5424.0,selected
+obscene,0.9413169843479391,0.7,0.2692307692307692,200.0,selected
+threat,,,,,no_threshold_meets_requirements
+insult,0.7603478650820913,0.7000922083909635,0.5296477153819323,4338.0,selected
+identity_attack,,,,,no_threshold_meets_requirements
+sexual_explicit,,,,,no_threshold_meets_requirements

@@ -1,0 +1,287 @@
+
+@import "tailwindcss";
+@import "tw-animate-css";
+@import "shadcn/tailwind.css";
+@import "@fontsource-variable/geist";
+
+@custom-variant dark (&:is(.dark *));
+
+/* ========================================
+   HYBRID COMMENT MODERATION SYSTEM
+   Global Design Tokens
+======================================== */
+
+:root {
+  font-family: "Geist Variable", sans-serif;
+
+  color-scheme: light;
+
+  /* Brand */
+  --background: #F5F7FB;
+  --foreground: #17243A;
+  --primary: #4F46E5;
+  --primary-foreground: #FFFFFF;
+
+  /* Surfaces */
+  --card: #FFFFFF;
+  --card-foreground: #17243A;
+  --popover: #FFFFFF;
+  --popover-foreground: #17243A;
+
+  --sidebar: #17243A;
+  --sidebar-foreground: #FFFFFF;
+
+  /* Text and secondary */
+  --secondary: #E8ECF4;
+  --secondary-foreground: #17243A;
+  --muted: #F1F5F9;
+  --muted-foreground: #64748B;
+  --muted-background: #F1F5F9;
+
+  /* Accent */
+  --accent: #EEF2FF;
+  --accent-foreground: #3730A3;
+
+  /* Borders and inputs */
+  --border: #E2E8F0;
+  --input: #E2E8F0;
+  --ring: #818CF8;
+
+  /* Status colors */
+  --success: #16A34A;
+  --success-background: #DCFCE7;
+
+  --warning: #D97706;
+  --warning-background: #FEF3C7;
+
+  --danger: #DC2626;
+  --danger-background: #FEE2E2;
+
+  --info: #2563EB;
+  --info-background: #DBEAFE;
+
+  --destructive: #DC2626;
+
+  /* Charts */
+  --chart-1: #4F46E5;
+  --chart-2: #16A34A;
+  --chart-3: #D97706;
+  --chart-4: #2563EB;
+  --chart-5: #DC2626;
+
+  /* Sidebar colors */
+  --sidebar-primary: #4F46E5;
+  --sidebar-primary-foreground: #FFFFFF;
+  --sidebar-accent: #253653;
+  --sidebar-accent-foreground: #FFFFFF;
+  --sidebar-border: #33445E;
+  --sidebar-ring: #818CF8;
+
+  /* Shape and effects */
+  --radius: 0.625rem;
+
+  --shadow-sm: 0 1px 2px rgba(15, 23, 42, 0.05);
+  --shadow-md: 0 4px 12px rgba(15, 23, 42, 0.06);
+}
+
+/* Map design tokens to Tailwind utilities */
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+
+  --color-card: var(--card);
+  --color-sidebar: var(--sidebar);
+  --color-sidebar-foreground: var(--sidebar-foreground);
+
+  --color-muted: var(--muted);
+  --color-muted-background: var(--muted-background);
+
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+
+  --color-success: var(--success);
+  --color-success-background: var(--success-background);
+
+  --color-warning: var(--warning);
+  --color-warning-background: var(--warning-background);
+
+  --color-danger: var(--danger);
+  --color-danger-background: var(--danger-background);
+
+  --color-info: var(--info);
+  --color-info-background: var(--info-background);
+
+  --radius-default: var(--radius);
+
+  --font-heading: var(--font-sans);
+
+  --font-sans: 'Geist Variable', sans-serif;
+
+  --color-sidebar-ring: var(--sidebar-ring);
+
+  --color-sidebar-border: var(--sidebar-border);
+
+  --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
+
+  --color-sidebar-accent: var(--sidebar-accent);
+
+  --color-sidebar-primary-foreground: var(--sidebar-primary-foreground);
+
+  --color-sidebar-primary: var(--sidebar-primary);
+
+  --color-chart-5: var(--chart-5);
+
+  --color-chart-4: var(--chart-4);
+
+  --color-chart-3: var(--chart-3);
+
+  --color-chart-2: var(--chart-2);
+
+  --color-chart-1: var(--chart-1);
+
+  --color-destructive: var(--destructive);
+
+  --color-accent-foreground: var(--accent-foreground);
+
+  --color-accent: var(--accent);
+
+  --color-muted-foreground: var(--muted-foreground);
+
+  --color-secondary-foreground: var(--secondary-foreground);
+
+  --color-secondary: var(--secondary);
+
+  --color-popover-foreground: var(--popover-foreground);
+
+  --color-popover: var(--popover);
+
+  --color-card-foreground: var(--card-foreground);
+
+  --radius-sm: calc(var(--radius) * 0.6);
+
+  --radius-md: calc(var(--radius) * 0.8);
+
+  --radius-lg: var(--radius);
+
+  --radius-xl: calc(var(--radius) * 1.4);
+
+  --radius-2xl: calc(var(--radius) * 1.8);
+
+  --radius-3xl: calc(var(--radius) * 2.2);
+
+  --radius-4xl: calc(var(--radius) * 2.6);
+}
+
+/* ========================================
+   Global Base Styles
+======================================== */
+
+@layer base {
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+  }
+
+  html {
+    min-width: 320px;
+    scroll-behavior: smooth;
+    @apply font-sans;
+  }
+
+  body {
+    margin: 0;
+    min-width: 320px;
+    min-height: 100vh;
+    background: var(--background);
+    color: var(--foreground);
+    font-family: inherit;
+    font-size: 14px;
+    line-height: 1.5;
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    @apply bg-background text-foreground;
+  }
+
+  button,
+  input,
+  textarea,
+  select {
+    font: inherit;
+  }
+
+  button {
+    cursor: pointer;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  p {
+    margin: 0;
+  }
+
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
+  * {
+    @apply border-border outline-ring/50;
+  }
+}
+
+/* ========================================
+   React Application Root
+======================================== */
+
+.dark {
+  --background: #111827;
+  --foreground: #F8FAFC;
+
+  --card: #1E293B;
+  --card-foreground: #F8FAFC;
+
+  --popover: #1E293B;
+  --popover-foreground: #F8FAFC;
+
+  --primary: #818CF8;
+  --primary-foreground: #17243A;
+
+  --secondary: #334155;
+  --secondary-foreground: #F8FAFC;
+
+  --muted: #273449;
+  --muted-foreground: #94A3B8;
+
+  --accent: #312E81;
+  --accent-foreground: #E0E7FF;
+
+  --destructive: #EF4444;
+
+  --border: #334155;
+  --input: #334155;
+  --ring: #818CF8;
+
+  --chart-1: #818CF8;
+  --chart-2: #22C55E;
+  --chart-3: #F59E0B;
+  --chart-4: #3B82F6;
+  --chart-5: #EF4444;
+
+  --sidebar: #17243A;
+  --sidebar-foreground: #F8FAFC;
+  --sidebar-primary: #818CF8;
+  --sidebar-primary-foreground: #17243A;
+  --sidebar-accent: #253653;
+  --sidebar-accent-foreground: #FFFFFF;
+  --sidebar-border: #33445E;
+  --sidebar-ring: #818CF8;
+}

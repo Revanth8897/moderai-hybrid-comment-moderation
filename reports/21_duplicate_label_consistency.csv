@@ -1,0 +1,8 @@
+metric,value
+unique_comment_texts,1968755
+duplicated_texts,5982
+extra_duplicate_rows,12658
+texts_with_score_conflicts,1853
+rows_with_score_conflicts,2868
+texts_with_binary_label_conflicts,283
+rows_with_binary_label_conflicts,381
